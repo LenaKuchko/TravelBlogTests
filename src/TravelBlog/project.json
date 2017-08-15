@@ -24,6 +24,7 @@
       "type": "platform",
       "version": "1.0.0"
     },
+    "Moq": "4.7.99",
     "System.Interactive.Async": "3.0.0",
     "System.Linq": "4.1.0",
     "System.Linq.Parallel": "4.0.1"

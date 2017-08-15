@@ -15,7 +15,7 @@ namespace TravelBlog.Models
 
         protected override void OnConfiguring(DbContextOptionsBuilder options)
         {
-            options.UseSqlServer(@"Server=(localdb)\mssqllocaldb;Database=TravelBlog;integrated security=True");
+            options.UseSqlServer(@"Server=DESKTOP-6CVACGR\SQLEXPRESS;Database=TravelBlog;integrated security=True");
         }
         public TravelBlogContext(DbContextOptions<TravelBlogContext> options)
             : base(options)
